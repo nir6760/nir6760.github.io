@@ -1,13 +1,29 @@
+# Nir Mualem - Computer Vision Enthusiast
 
-He is currently pursuing a Master's Degree in computer science, at School of Computer Science and Technology, China University of Mining and Technology.
+## About Me
 
-#### Email
-nirmu@post.bgu.ac.il
+I am a Master's student at Ben-Gurion University, passionately exploring the realms of Computer Vision, 3D Reconstruction, and ML/DL. My academic journey involves unraveling the complexities of visual data and transforming them into meaningful insights.
 
-#### Education
-2022.08 - present, Computer Science and Technology, School of Computer Science and Technology, China University of Mining and Technology.
+## Contact Information
 
-2018.08 - 2022.06, Data Science and Big Data Technology, School of Computer Science and Technology, China University of Mining and Technology.
+- **Email:** [nirmu@post.bgu.ac.il](mailto:nirmu@post.bgu.ac.il)
 
-#### Research Intersts
-Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
+## Education
+
+- **Master's in Computer Science and Technology**
+  - *2022.10 - Present*
+  - Computer Science Dep., Ben-Gurion University o the Negev
+
+- **Bachelor's in Computer Science**
+  - *2018.10 - 2022.03*
+  - Computer Science Faculty, Technion - Israel Institute of Technology
+
+## Research Interests
+
+My specific research interests include:
+
+- Computer Vision
+- 3D Reconstruction
+- Image Processing
+
+Feel free to connect, and let's delve into the exciting world of computer vision together!
