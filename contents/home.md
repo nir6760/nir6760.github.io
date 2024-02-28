@@ -2,7 +2,7 @@
 He is currently pursuing a Master's Degree in computer science, at School of Computer Science and Technology, China University of Mining and Technology.
 
 #### Email
-sli[at]cumt.edu.cn
+nirmu@post.bgu.ac.il
 
 #### Education
 2022.08 - present, Computer Science and Technology, School of Computer Science and Technology, China University of Mining and Technology.
