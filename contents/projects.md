@@ -6,4 +6,4 @@
 ## PlayAndPass (App on Google Play store)
   - Created a memory card game based on image processing of selfies.
   - Developed for Android using the Flutter platform.
-  - - [GitHub Repository](https://github.com/Technion236272/2022a-PlayAndPass)
+  - [GitHub Repository](https://github.com/Technion236272/2022a-PlayAndPass)
