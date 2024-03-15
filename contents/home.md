@@ -1,5 +1,3 @@
-# Nir Mualem - Computer Vision Enthusiast
-
 ## About Me
 
 I am a Master's student at Ben-Gurion University, passionately exploring the realms of Computer Vision, 3D Reconstruction, and ML/DL. My academic journey involves unraveling the complexities of visual data and transforming them into meaningful insights.
@@ -7,6 +5,9 @@ I am a Master's student at Ben-Gurion University, passionately exploring the rea
 ## Contact Information
 
 - **Email:** [nirmu@post.bgu.ac.il](mailto:nirmu@post.bgu.ac.il)
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/nir-mualem-a40b361a3/)
+- **GitHub:** [Your GitHub Profile](https://github.com/nir6760)
+
 
 ## Education
 
