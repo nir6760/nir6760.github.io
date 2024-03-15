@@ -1,5 +1,3 @@
-## About Me
-
 I am a Master's student at Ben-Gurion University, passionately exploring the realms of Computer Vision, 3D Reconstruction, and ML/DL. My academic journey involves unraveling the complexities of visual data and transforming them into meaningful insights.
 
 ## Contact Information
