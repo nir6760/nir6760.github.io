@@ -3,8 +3,8 @@ I am a Master's student at Ben-Gurion University, passionately exploring the rea
 ## Contact Information
 
 - **Email:** [nirmu@post.bgu.ac.il](mailto:nirmu@post.bgu.ac.il)
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/nir-mualem-a40b361a3/)
-- **GitHub:** [Your GitHub Profile](https://github.com/nir6760)
+- **LinkedIn:** [Nir Mualem](https://www.linkedin.com/in/nir-mualem-a40b361a3/)
+- **GitHub:** [nir6760](https://github.com/nir6760)
 
 
 ## Education
