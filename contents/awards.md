@@ -1,4 +1,7 @@
 
+## Master's Awards / Ben Gurion University (04/2024)
+
+- Graduated with honors.
 
 ## Master's Awards / Ben Gurion University (11/2022)
 
