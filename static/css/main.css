@@ -53,6 +53,222 @@ section .main-body{
     line-height: 2.4rem;
 }
 
+/* Home section intro paragraph styling */
+#home-md > p:first-child {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-align: justify;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+    border-radius: 12px;
+    border-left: 4px solid var(--h-title-color);
+    box-shadow: 0 2px 8px rgba(57, 72, 210, 0.06);
+}
+
+/* Contact Information Section Styling */
+#home-md h2 {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    color: var(--h-title-color);
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 3px solid #e0e0e0;
+    position: relative;
+}
+
+#home-md h2::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--h-title-color), #6c7ae0);
+}
+
+/* Contact Information List Styling */
+#home-md ul {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: grid;
+    gap: 1.2rem;
+}
+
+/* Special styling for contact section container */
+#home-md h2:first-of-type + ul {
+    background: linear-gradient(135deg, #f0f2ff 0%, #f8f9ff 100%);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(57, 72, 210, 0.08);
+    margin-bottom: 3rem;
+}
+
+#home-md h2:first-of-type + ul li {
+    background: white;
+    box-shadow: 0 1px 4px rgba(57, 72, 210, 0.06);
+}
+
+#home-md ul li {
+    display: flex;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(57, 72, 210, 0.08);
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+#home-md ul li:hover {
+    transform: translateX(8px);
+    box-shadow: 0 4px 16px rgba(57, 72, 210, 0.15);
+    border-left-color: var(--h-title-color);
+    background: linear-gradient(135deg, #ffffff 0%, #f0f2ff 100%);
+}
+
+#home-md ul li strong {
+    min-width: 120px;
+    color: var(--h-title-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+
+#home-md ul li a {
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+#home-md ul li a:hover {
+    color: var(--h-title-color);
+    text-decoration: underline;
+}
+
+/* Add icons before contact items */
+#home-md ul li:has(strong:contains("Email"))::before,
+#home-md ul li:nth-child(1)::before {
+    content: "✉";
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--h-title-color);
+    min-width: 30px;
+}
+
+#home-md ul li:has(strong:contains("LinkedIn"))::before,
+#home-md ul li:nth-child(2)::before {
+    content: "💼";
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--h-title-color);
+    min-width: 30px;
+}
+
+#home-md ul li:has(strong:contains("GitHub"))::before,
+#home-md ul li:nth-child(3)::before {
+    content: "🐙";
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: var(--h-title-color);
+    min-width: 30px;
+}
+
+/* Education Section Styling */
+#home-md ul li:has(em) {
+    display: block;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+    border-left: 4px solid var(--h-title-color);
+}
+
+#home-md ul li:has(em)::before {
+    content: "🎓";
+    font-size: 1.8rem;
+    margin-right: 1rem;
+    float: left;
+}
+
+#home-md ul li:has(em):hover {
+    transform: translateX(0);
+    box-shadow: 0 6px 20px rgba(57, 72, 210, 0.12);
+}
+
+#home-md ul li strong:first-child {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+#home-md ul li em {
+    display: block;
+    color: #777;
+    font-style: normal;
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+
+#home-md ul li ul {
+    margin-top: 0.5rem;
+    padding-left: 0;
+}
+
+#home-md ul li ul li {
+    padding: 0.4rem 0;
+    background: none;
+    box-shadow: none;
+    border: none;
+    font-size: 1rem;
+}
+
+#home-md ul li ul li::before {
+    content: none;
+}
+
+#home-md ul li ul li:hover {
+    transform: none;
+    background: none;
+    box-shadow: none;
+}
+
+/* Research Interests Styling */
+#home-md h2:last-of-type + p + ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+#home-md h2:last-of-type + p + ul li {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, var(--h-title-color), #6c7ae0);
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgba(57, 72, 210, 0.2);
+    font-weight: 500;
+    border: none;
+}
+
+#home-md h2:last-of-type + p + ul li::before {
+    content: "•";
+    margin-right: 0.6rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#home-md h2:last-of-type + p + ul li:hover {
+    transform: translateY(-3px) translateX(0);
+    box-shadow: 0 6px 16px rgba(57, 72, 210, 0.3);
+    background: linear-gradient(135deg, #4a5bd9, #7c8de8);
+}
+
 
 .bg-gradient-primary-to-secondary-light {
     background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
@@ -126,5 +342,505 @@ section .main-body{
         margin-top: 7rem;
     }
 
+}
+
+/* Projects Section Styling */
+#projects-md h2 {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    color: var(--h-title-color);
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 3px solid transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+#projects-md h2::before {
+    content: "🚀";
+    font-size: 2rem;
+}
+
+#projects-md h2::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--h-title-color), transparent);
+}
+
+/* Project cards container */
+#projects-md > h2 {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(57, 72, 210, 0.12);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(57, 72, 210, 0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+#projects-md > h2::before {
+    position: absolute;
+    top: 1.8rem;
+    left: 1.5rem;
+    z-index: 1;
+}
+
+#projects-md > h2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(57, 72, 210, 0.18);
+    border-color: var(--h-title-color);
+}
+
+/* Project title styling within cards */
+#projects-md h2 {
+    padding-left: 3.5rem;
+}
+
+/* Project description list items */
+#projects-md ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 1rem 0;
+}
+
+#projects-md ul li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.8rem 0;
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.15rem;
+}
+
+#projects-md ul li::before {
+    content: "▸";
+    color: var(--h-title-color);
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+    margin-top: 0.1rem;
+    font-weight: bold;
+}
+
+/* GitHub link styling */
+#projects-md a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.9rem 2rem;
+    background: linear-gradient(135deg, var(--h-title-color), #5865e0);
+    color: white !important;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(57, 72, 210, 0.3);
+    margin-top: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#projects-md a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+#projects-md a:hover::before {
+    left: 100%;
+}
+
+#projects-md a::after {
+    content: "→";
+    margin-left: 0.8rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+}
+
+#projects-md a:hover {
+    transform: translateX(5px) scale(1.05);
+    box-shadow: 0 6px 25px rgba(57, 72, 210, 0.4);
+    background: linear-gradient(135deg, #4a5bd9, #6c7ae0);
+}
+
+#projects-md a:hover::after {
+    transform: translateX(5px);
+}
+
+#projects-md a:active {
+    transform: translateX(5px) scale(1.02);
+}
+
+/* Add GitHub icon before link text */
+#projects-md li:has(a)::before {
+    content: none;
+}
+
+#projects-md li:has(a) {
+    padding: 1rem 0;
+}
+
+/* Publications Section Styling */
+#publications-md h2 {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    color: var(--h-title-color);
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 3px solid transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+#publications-md h2::before {
+    content: "📄";
+    font-size: 2rem;
+}
+
+#publications-md h2::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--h-title-color), transparent);
+}
+
+/* Publication cards container */
+#publications-md > h2 {
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(57, 72, 210, 0.12);
+    margin-bottom: 2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(57, 72, 210, 0.08);
+    position: relative;
+    overflow: hidden;
+    border-left: 5px solid var(--h-title-color);
+}
+
+#publications-md > h2::before {
+    position: absolute;
+    top: 1.8rem;
+    left: 1.5rem;
+    z-index: 1;
+}
+
+#publications-md > h2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(57, 72, 210, 0.18);
+    background: linear-gradient(135deg, #ffffff 0%, #f0f2ff 100%);
+}
+
+/* Add a decorative corner accent */
+#publications-md > h2::after {
+    content: "✨";
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+}
+
+#publications-md > h2:hover::after {
+    opacity: 0.8;
+}
+
+/* Publication title styling within cards */
+#publications-md h2 {
+    padding-left: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Publication description list items */
+#publications-md ul {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0 1rem 0;
+}
+
+#publications-md ul li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.8rem 0;
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.15rem;
+}
+
+#publications-md ul li::before {
+    content: "▸";
+    color: var(--h-title-color);
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+    margin-top: 0.1rem;
+    font-weight: bold;
+}
+
+/* Project Website link styling */
+#publications-md a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.9rem 2rem;
+    background: linear-gradient(135deg, #6c7ae0, var(--h-title-color));
+    color: white !important;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(57, 72, 210, 0.3);
+    margin-top: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#publications-md a::before {
+    content: "🔗";
+    margin-right: 0.6rem;
+    font-size: 1.1rem;
+}
+
+#publications-md a::after {
+    content: "→";
+    margin-left: 0.8rem;
+    font-size: 1.3rem;
+    transition: transform 0.3s ease;
+}
+
+#publications-md a:hover {
+    transform: translateX(5px) scale(1.05);
+    box-shadow: 0 6px 25px rgba(57, 72, 210, 0.4);
+    background: linear-gradient(135deg, #7c8de8, #4a5bd9);
+}
+
+#publications-md a:hover::after {
+    transform: translateX(5px);
+}
+
+#publications-md li:has(a)::before {
+    content: none;
+}
+
+#publications-md li:has(a) {
+    padding: 1rem 0;
+}
+
+/* Awards Section Styling */
+#awards-md h2 {
+    font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    color: var(--h-title-color);
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    border-radius: 16px;
+    position: relative;
+    background: linear-gradient(135deg, #fff8e1 0%, #ffffff 100%);
+    box-shadow: 0 4px 20px rgba(255, 193, 7, 0.15);
+    border: 1px solid rgba(255, 193, 7, 0.2);
+    border-left: 5px solid #ffc107;
+    transition: all 0.3s ease;
+}
+
+#awards-md > h2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(255, 193, 7, 0.25);
+    background: linear-gradient(135deg, #fff8e1 0%, #fffef7 100%);
+}
+
+/* Award category date styling */
+#awards-md h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+/* Awards list items */
+#awards-md ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0 0;
+}
+
+#awards-md ul li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.8rem 0;
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.15rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+#awards-md ul li::before {
+    content: "▸";
+    color: #ffa000;
+    font-size: 1.2rem;
+    margin-right: 0.8rem;
+    margin-top: 0.1rem;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* Add subtle separator between award categories */
+#awards-md > h2:not(:first-child) {
+    margin-top: 2.5rem;
+}
+
+/* Special styling for the first award (most recent/important) */
+#awards-md > h2:first-child {
+    background: linear-gradient(135deg, #ffd700 0%, #fff8e1 100%);
+    border-left-color: #ffa000;
+    box-shadow: 0 6px 25px rgba(255, 193, 7, 0.2);
+}
+
+#awards-md > h2:first-child:hover {
+    box-shadow: 0 10px 35px rgba(255, 193, 7, 0.3);
+}
+
+/* Responsive Design for Home Section */
+@media screen and (max-width: 768px) {
+    #home-md > p:first-child {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        text-align: left;
+    }
+
+    #home-md h2 {
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+
+    #home-md ul li {
+        padding: 1rem;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #home-md ul li strong {
+        min-width: 80px;
+        font-size: 1rem;
+    }
+
+    #home-md ul li::before {
+        font-size: 1.2rem;
+        margin-right: 0.8rem;
+        min-width: 25px;
+    }
+
+    #home-md h2:last-of-type + p + ul {
+        gap: 0.8rem;
+    }
+
+    #home-md h2:last-of-type + p + ul li {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.95rem;
+    }
+
+    /* Projects section responsive */
+    #projects-md > h2 {
+        padding: 1.5rem;
+    }
+
+    #projects-md h2 {
+        font-size: 1.4rem;
+        padding-left: 3rem;
+    }
+
+    #projects-md h2::before {
+        font-size: 1.5rem;
+        top: 1.4rem;
+        left: 1rem;
+    }
+
+    #projects-md ul li {
+        font-size: 1rem;
+        padding: 0.6rem 0;
+    }
+
+    #projects-md a {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.95rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #projects-md a::after {
+        margin-left: 0.5rem;
+    }
+
+    /* Publications section responsive */
+    #publications-md > h2 {
+        padding: 1.5rem;
+    }
+
+    #publications-md h2 {
+        font-size: 1.4rem;
+        padding-left: 3rem;
+    }
+
+    #publications-md h2::before {
+        font-size: 1.5rem;
+        top: 1.4rem;
+        left: 1rem;
+    }
+
+    #publications-md ul li {
+        font-size: 1rem;
+        padding: 0.6rem 0;
+    }
+
+    #publications-md a {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.95rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #publications-md a::after {
+        margin-left: 0.5rem;
+    }
+
+    /* Awards section responsive */
+    #awards-md h2 {
+        padding: 1.5rem;
+        font-size: 1.4rem;
+    }
+
+    #awards-md ul li {
+        font-size: 1rem;
+        padding: 0.6rem 0;
+        padding-left: 1.2rem;
+    }
+
+    #awards-md ul li::before {
+        font-size: 1rem;
+    }
+
+    #awards-md > h2:not(:first-child) {
+        margin-top: 2rem;
+    }
 }
 

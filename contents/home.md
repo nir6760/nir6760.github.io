@@ -1,4 +1,4 @@
-I am a Master's student at Ben-Gurion University, passionately exploring the realms of Computer Vision, 3D Reconstruction, and ML/DL. My academic journey involves unraveling the complexities of visual data and transforming them into meaningful insights.
+I am a Computer Vision Research Engineer with a Master’s degree from Ben-Gurion University, specializing in 3D Reconstruction and Machine Learning. I’m passionate about transforming complex visual data into meaningful spatial understanding and developing AI-driven perception systems that bridge the gap between vision and reality.
 
 ## Contact Information
 
@@ -9,8 +9,8 @@ I am a Master's student at Ben-Gurion University, passionately exploring the rea
 ## Education
 
 - **Master's in Computer Science and Technology**
-  - *2022.10 - Present*
-  - Computer Science Dep., Ben-Gurion University o the Negev
+  - *2022.10 - 2025.02*
+  - Computer Science Dep., Ben-Gurion University of the Negev
 
 - **Bachelor's in Computer Science**
   - *2018.10 - 2022.03*
@@ -23,3 +23,5 @@ My specific research interests include:
 - Computer Vision
 - 3D Reconstruction
 - Image Processing
+- Deep Learning
+- 3D Gaussian Splatting variants
